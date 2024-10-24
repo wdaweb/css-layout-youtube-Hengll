@@ -556,6 +556,36 @@ a:visited {
     height: 560px;
 }
 
+@media (max-width:1600px) {
+    #content .short .container {
+        width: calc(100% / 5 - 16px);
+    }
+
+    #content .short .container:nth-of-type(6) {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    #content .short .container {
+        width: calc(100% / 4 - 16px);
+    }
+
+    #content .short .container:nth-of-type(5) {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    #content .short .container {
+        width: calc(100% / 3 - 16px);
+    }
+
+    #content .short .container:nth-of-type(4) {
+        display: none;
+    }
+}
+
 #content .short .information {
     width: 90%;
     height: 17.4%;
