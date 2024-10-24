@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="header">
+    <div id="left">
+      <div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fa-brands fa-youtube"></i>
+          <span>YouTube</span>
+        </a>
+      </div>
+    </div>
+    <div id="center">
+      <div id="search">
+        <div>
+          <input type="text" placeholder="搜尋">
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+      </div>
+    </div>
+    <div id="right">
+      <div>
+        <i class="fa-solid fa-plus"></i>
+        <span>建立</span>
+      </div>
+      <div>
+        <i class="fa-regular fa-bell"></i>
+      </div>
+      <div>
+        <span>😭</span>
+      </div>
+    </div>
+  </div>
+  <div id="header2">
+    <ul>
+      <li>
+        <p>全部</p>
+      </li>
+      <li>
+        <p>直播中</p>
+      </li>
+      <li>
+        <p>新聞</p>
+      </li>
+      <li>
+        <p>Podcast</p>
+      </li>
+      <li>
+        <p>音樂</p>
+      </li>
+      <li>
+        <p>觀光</p>
+      </li>
+      <li>
+        <p>烹飪</p>
+      </li>
+      <li>
+        <p>最新上傳</p>
+      </li>
+      <li>
+        <p>讓你耳目一新的影片</p>
+      </li>
+    </ul>
+  </div>
+  <div id="sidebar">
+    <div>
+      <ul>
+        <li><i class="fa-solid fa-house"></i><span>首頁</span></li>
+        <li><i class="fa-solid fa-bolt"></i><span>Shorts</span></li>
+        <li><i class="fa-regular fa-square-caret-right"></i><span>訂閱內容</span></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><span>&nbsp;&nbsp;個人中心</span><i class="fa-solid fa-angle-right"></i></li>
+        <li><i class="fa-solid fa-clock-rotate-left"></i><span>觀看紀錄</span></li>
+        <li><i class="fa-solid fa-indent"></i><span>播放清單</span></li>
+        <li><i class="fa-solid fa-circle-play"></i><span>你的影片</span></li>
+        <li><i class="fa-regular fa-clock"></i><span>稍後觀看</span></li>
+        <li><i class="fa-regular fa-thumbs-up"></i><span>喜歡的影片</span></li>
+      </ul>
+    </div>
+    <div>
+      <p>探索</p>
+      <ul>
+        <li><i class="fa-solid fa-fire"></i><span>發燒影片</span></li>
+        <li><i class="fa-solid fa-music"></i><span>音樂</span></li>
+        <li><i class="fa-solid fa-clapperboard"></i><span>電影</span></li>
+        <li><i class="fa-solid fa-tower-broadcast"></i><span>直播</span></li>
+        <li><i class="fa-solid fa-gamepad"></i><span>遊戲</span></li>
+        <li><i class="fa-regular fa-newspaper"></i><span>新聞</span></li>
+        <li><i class="fa-solid fa-trophy"></i><span>體育</span></li>
+        <li><i class="fa-regular fa-lightbulb"></i><span>課程</span></li>
+        <li><i class="fa-solid fa-podcast"></i><span>Podcast</span></li>
+      </ul>
+    </div>
+    <div>
+      <p>更多 YouTube 功能</p>
+      <ul>
+        <li><i class="fa-brands fa-youtube"></i><span>YouTube Premiun</span></li>
+        <li><i class="fa-brands fa-youtube"></i><span>YouTube 工作室</span></li>
+        <li><i class="fa-brands fa-youtube"></i><span>YouTube Music</span></li>
+        <li><i class="fa-brands fa-youtube"></i><span>YouTube Kids</span></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><i class="fa-solid fa-gear"></i><span>設定</span></li>
+        <li><i class="fa-regular fa-flag"></i><span>檢舉紀錄</span></li>
+        <li><i class="fa-regular fa-circle-question"></i><span>說明</span></li>
+        <li><i class="fa-solid fa-circle-exclamation"></i><span>提供意見</span></li>
+      </ul>
+    </div>
+    <div id="footer">
+      <span>簡介</span>
+      <span>媒體</span>
+      <span>著作權</span>
+      <span>與我們聯絡</span>
+      <span>創作者</span>
+      <span>廣告</span>
+      <span>開發人員</span>
+      <p>&nbsp;</p>
+      <span>條款</span>
+      <span>隱私權</span>
+      <span>政策與安全性</span>
+      <span>YouTube運作方式</span>
+      <span>測試新功能</span>
+      <p>&nbsp;</p>
+      <p id="text">前端班YouTube切版練習</p>
+    </div>
+  </div>
+  <div id="content">
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=KjQnpw96VpE">
+        <div class="img">
+          <img src="./img/01.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/01.jpg">
+        </div>
+        <div class="information">
+          <div class="title">🔴不斷更新Live／山陀兒不排除變「強颱」週三全台颱風假？！恐從高雄登陸「掀南台灣噩夢」？‪@newsebc‬</div>
+          <div class="fake-author"></div>
+          <div class="views">1.5萬 人正在觀看</div>
+          <div class="isstreaming">
+            <div>
+              <i class="fa-solid fa-tower-broadcast"></i><span>直播</span>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@newsebc">
+        <div class="author">東森新聞 CH51</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=0-9AkSmB3uw">
+        <div class="img">
+          <img src="./img/02.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/02.jpg">
+        </div>
+        <div class="information">
+          <div class="title">🔴9/30【LIVE】TVBS NEWS晚間整點新聞 重點直播 Taiwan News 20240930
+          </div>
+          <div class="fake-author"></div>
+          <div class="views">6940 人正在觀看</div>
+          <div class="isstreaming">
+            <div>
+              <i class="fa-solid fa-tower-broadcast"></i><span>直播</span>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@TVBSNEWS01">
+        <div class="author">TVBS NEWS</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=XvR1xON9cLc">
+        <div class="img">
+          <img src="./img/03.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/03.jpg">
+        </div>
+        <div class="information">
+          <div class="title">住了三個月之後，這些是我對日本生活真實的看法</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 58萬次 · 2 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@xilanceylan">
+        <div class="author">錫蘭Ceylan</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=LSI9SdhaEEg">
+        <div class="img">
+          <img src="./img/04.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/04.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【#直播中LIVE】⚡颱風特報 #不斷電直播⚡「山陀兒」撲台 10/1停班課縣市：嘉義縣、台南、高雄、屏東、台東、花蓮 氣象署最新說明｜三立新聞網 SETN.com</div>
+          <div class="fake-author"></div>
+          <div class="views">2580 人正在觀看</div>
+          <div class="isstreaming">
+            <div>
+              <i class="fa-solid fa-tower-broadcast"></i><span>直播</span>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@setn">
+        <div class="author">三立新聞網SETN</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=ui8-8cUNOpI">
+        <div class="img">
+          <img src="./img/05.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/05.jpg">
+        </div>
+        <div class="information">
+          <div class="title">股價閃崩逾9成！創辦人去職！台灣最被看好的獨角獸，GOGORO到底怎麼了？</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 64 萬次 · 6 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@withmoney">
+        <div class="author">窮奢極欲</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=QEzDKE7FUqM">
+        <div class="img">
+          <img src="./img/06.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/06.jpg">
+        </div>
+        <div class="information">
+          <div class="title">胡瓜徒弟們來了！任賢齊九孔拜見大哥！模仿大師重出江湖啦！【下面一位】Ep30｜任賢齊、九孔</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 52 萬次 · 4 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@ytnextone_1">
+        <div class="author">下面一位</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=ex5J9B43_Sk">
+        <div class="img">
+          <img src="./img/07.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/07.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【吃到飽評比】北台灣最強貴族世家！只要$360 多款現點現做料理！牛排 炸物 熱炒 吃到飽｜品項超多自助吧無限吃｜全品項 清起來！新北 新莊 美食 推薦｜Buffet All You
+            Can Eat</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 20 萬次 · 1 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@HowHowEat">
+        <div class="author">吃貨豪豪HowHowFat</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=3aLDRoogdI4">
+        <div class="img">
+          <img src="./img/08.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/08.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【中天直播 #LIVE】山陀兒恐增強颱C字登陸襲台 暴風圈11時觸陸! 最新颱風動態 不斷更新 20240929</div>
+          <div class="fake-author"></div>
+          <div class="views">2463 人正在觀看</div>
+          <div class="isstreaming">
+            <div>
+              <i class="fa-solid fa-tower-broadcast"></i><span>直播</span>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@%E4%B8%AD%E5%A4%A9%E9%9B%BB%E8%A6%96CtiTv">
+        <div class="author">中天電視</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="short">
+      <h2><i class="fa-solid fa-bolt"></i><span>Shorts</span></h2>
+      <div class="container">
+        <a href="https://www.youtube.com/shorts/vgKu3BlETUE">
+          <div class="img">
+            <img src="./img/21.webp">
+          </div>
+          <div class="information">
+            <div class="title">沒有太陽的地方 #冷知識 #涨知识 #svalbard</div>
+            <div class="views">觀看次數 : 43萬次</div>
+          </div>
+          <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <a href="https://www.youtube.com/shorts/Iy7r6I_pBBo">
+          <div class="img">
+            <img src="./img/22.webp">
+          </div>
+          <div class="information">
+            <div class="title">Top Skills</div>
+            <div class="views">觀看次數 : 4592萬次</div>
+          </div>
+          <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <a href="https://www.youtube.com/shorts/YrHRLKNrQhs">
+          <div class="img">
+            <img src="./img/23.webp">
+          </div>
+          <div class="information">
+            <div class="title">大貓熊被夾手「火大發飆」！怒撲倒飼育員嚇壞遊客</div>
+            <div class="views">觀看次數 : 33萬次</div>
+          </div>
+          <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <a href="https://www.youtube.com/shorts/-IvvNVUKApw">
+          <div class="img">
+            <img src="./img/24.webp">
+          </div>
+          <div class="information">
+            <div class="title">本以為是靈魂畫手，原來是寫實畫手，太醜了~</div>
+            <div class="views">觀看次數 : 73萬次</div>
+          </div>
+          <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <a href="https://www.youtube.com/shorts/5nBcGhOjI30">
+          <div class="img">
+            <img src="./img/25.webp">
+          </div>
+          <div class="information">
+            <div class="title">【生活】颱風最快今晚生成 恐中颱之姿侵台</div>
+            <div class="views">觀看次數 : 8.9萬次</div>
+          </div>
+          <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <a href="https://www.youtube.com/shorts/8xy63Snu9tU">
+          <div class="img">
+            <img src="./img/26.webp">
+          </div>
+          <div class="information">
+            <div class="title">護士小姐姐以爲緣分來了，萬萬沒想到…網友：傷害不止一點點！</div>
+            <div class="views">觀看次數 : 66萬次</div>
+          </div>
+          <div class="more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </a>
+      </div>
+      <div class="btn">
+        <span>顯示完整內容</span><i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=4xND6bwOQmQ">
+        <div class="img">
+          <img src="./img/09.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/09.jpg">
+        </div>
+        <div class="information">
+          <div class="title">阿羅哈、日統接連停駛，為何客運業快「撐不住了」？還有辦法救嗎？《台灣交通怎麼了？》EP 018｜志祺七七</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 70 萬次 · 3 週前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@shasha77">
+        <div class="author">志祺七七 X 圖文不符</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=mt8UkFYfSBk">
+        <div class="img">
+          <img src="./img/10.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/10.jpg">
+        </div>
+        <div class="information">
+          <div class="title">我來到了世界上最北的城市！北極的斯瓦爾巴群島｜ 4K杜比視界</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 11 萬次 · 23 小時前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@linksphotograph">
+        <div class="author">Links TV</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=iaUL-AHKHtc">
+        <div class="img">
+          <img src="./img/11.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/11.jpg">
+        </div>
+        <div class="information">
+          <div class="title">職業級偷車！女嬰反鎖車內 囚犯看不下去「重操舊業」救人... (翻攝畫面)</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 397 萬次 · 5 年前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@LtnTw">
+        <div class="author">自由時報電子報</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=AI1lTz_JAsM">
+        <div class="img">
+          <img src="./img/12.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/12.jpg">
+        </div>
+        <div class="information">
+          <div class="title">為何斯巴達戰士的戰鬥力那麼強？揭秘300壯士背後的殘酷真相！</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 11 萬次 · 2 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@naodong">
+        <div class="author">腦洞大開</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=D-dKjbEP7Bo">
+        <div class="img">
+          <img src="./img/13.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/13.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【山陀兒颱風襲台】3縣市颱風假飛了？中颱山陀兒路徑多變　最新風雨預報出爐 ‪@ChinaTimes‬</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 4167 次 · 54 分鐘前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@ChinaTimes">
+        <div class="author">中時新聞網</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=tO7CgYlS-KI">
+        <div class="img">
+          <img src="./img/14.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/14.jpg">
+        </div>
+        <div class="information">
+          <div class="title">山陀兒路徑似47年前"賽洛瑪" 釀37死.12失蹤浩劫 山陀兒北轉速度慢 專家:台東.高屏降雨時間拉長│記者 江柏緯 張舒涵│【新聞一把抓】20240930│三立新聞台</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 633 次 · 28 分鐘前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@setnews">
+        <div class="author">三立LIVE新聞</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=pFEmAD6AaAM">
+        <div class="img">
+          <img src="./img/15.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/15.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【全程字幕】山陀兒"最新路徑、登陸時間、風雨影響"一次看! 戴立綱曝登陸後"最怕1變數"恐重災</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 3374 次 · 31 分鐘前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9ECtiNews">
+        <div class="author">中天新聞</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=twXdUdhHDMc">
+        <div class="img">
+          <img src="./img/16.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/16.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【山陀兒颱風】最詭異颱風「緩慢時速6km前進」！路徑變數大「各國看法仍分歧」‪@newsebc‬</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 3324 次 · 30 分鐘前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@newsebc">
+        <div class="author">東森新聞 CH51</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=YYCblWDgxmA">
+        <div class="img">
+          <img src="./img/17.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/17.jpg">
+        </div>
+        <div class="information">
+          <div class="title">【LIVE】北市明午納入陸警範圍20240930｜#山陀兒 颱風｜停班停課｜Typhoon Krathon Taiwan｜TVBS新聞網</div>
+          <div class="fake-author"></div>
+          <div class="views">1311 人正在觀看</div>
+          <div class="isstreaming">
+            <div>
+              <i class="fa-solid fa-tower-broadcast"></i><span>直播</span>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@TVBSNEWS02">
+        <div class="author">TVBS選新聞</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=afi2Z96GeWs">
+        <div class="img">
+          <img src="./img/18.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/18.jpg">
+        </div>
+        <div class="information">
+          <div class="title">台男＝不會穿搭？別再刻板印象了，七分褲、古著風、洞洞裝！台北街頭的台灣型男其實超多！？【夏日衣品大調查】Dcard調查局｜Dcard.Video</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 34 萬次 · 2 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@DcardTaiwan">
+        <div class="author">Dcard Video</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=-nj8X57p6zY">
+        <div class="img">
+          <img src="./img/19.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/19.jpg">
+        </div>
+        <div class="information">
+          <div class="title">定居新竹山上 種台灣奇異果 千分之一的奇異果革命 國產風味勝進口 又香又甜｜白心儀主持｜【台灣亮起來】20240926｜三立新聞台</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 15 萬次 · 3 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@LightenupTaiwan">
+        <div class="author">台灣亮起來</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://www.youtube.com/watch?v=OD7kalLrM-k">
+        <div class="img">
+          <img src="./img/20.webp">
+        </div>
+        <div class="head">
+          <img src="./img/head/20.jpg">
+        </div>
+        <div class="information">
+          <div class="title">😱食物發霉、物價暴漲？🦠💸法國人環島只去前5名台灣最爛夜市？🌃GOING TO THE 5 WORST NIGHT MARKETS IN TAIWAN</div>
+          <div class="fake-author"></div>
+          <div class="views">觀看次數 : 92 萬次 · 2 天前</div>
+        </div>
+        <div class="more">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@Kusdream">
+        <div class="author">Ku's dream酷的夢</div>
+      </a>
+      <div class="clock">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <div class="emlist">
+        <i class="fa-solid fa-align-right"></i>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
